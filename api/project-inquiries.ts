@@ -1,5 +1,5 @@
 import type { IncomingMessage, ServerResponse } from 'node:http';
-import { processProjectInquiry } from '../server/inquiries';
+import { processProjectInquiry } from '../server/inquiries.js';
 
 type VercelRequest = IncomingMessage & { body?: unknown };
 type VercelResponse = ServerResponse & {

@@ -1,6 +1,6 @@
 import { z } from 'zod';
-import { inquirySchema, type InquiryPayload } from '../shared/projectInquiry';
-import { buildInquiryId, escapeHtml, getTransporter } from './mail';
+import { inquirySchema, type InquiryPayload } from '../shared/projectInquiry.js';
+import { buildInquiryId, escapeHtml, getTransporter } from './mail.js';
 
 export type InquirySubmissionResult =
   | { status: 200; body: { success: true; inquiryId: string } }

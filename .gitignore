@@ -9,3 +9,5 @@ mobile-*.png
 *.log
 .env*
 !.env.example
+
+.vercel
