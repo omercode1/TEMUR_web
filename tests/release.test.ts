@@ -9,6 +9,7 @@ import {
   inquirySchema,
 } from '../shared/projectInquiry';
 import { escapeHtml } from '../server/mail';
+import { buildInquiryEmailHtml } from '../server/inquiries';
 import vercelInquiryHandler from '../api/project-inquiries';
 
 test('accepts a valid project inquiry payload', () => {
@@ -47,6 +48,34 @@ test('rejects an invalid contact email', () => {
 
 test('escapes user-controlled values in inquiry email HTML', () => {
   assert.equal(escapeHtml('<img src=x onerror=alert(1)> & "test"'), '&lt;img src=x onerror=alert(1)&gt; &amp; &quot;test&quot;');
+});
+
+test('formats a polished and escaped project inquiry email', () => {
+  const data = inquirySchema.parse({
+    type: PROJECT_TYPES[0],
+    goal: '<img src=x onerror=alert(1)> Yeni web sitesi projesi.',
+    stage: PROJECT_STAGES[0],
+    features: ['SEO', 'Yönetim Paneli'],
+    otherFeatures: 'Raporlama',
+    budget: PROJECT_BUDGETS[0],
+    timeline: PROJECT_TIMELINES[0],
+    hasDeadline: false,
+    contact: {
+      name: 'Test Kullanıcı',
+      email: 'test@example.com',
+      phone: '+90 555 000 00 00',
+      company: 'Test Marka',
+      preferred: PREFERRED_CONTACTS[0],
+    },
+  });
+
+  const html = buildInquiryEmailHtml(data, 'TEM-2026-TEST');
+
+  assert.match(html, /TEMUR <span[^>]*>STUDIO/);
+  assert.match(html, /Proje brifi/);
+  assert.match(html, /E-posta ile yanıtla/);
+  assert.match(html, /&lt;img src=x onerror=alert\(1\)&gt;/);
+  assert.doesNotMatch(html, /<img src=x onerror=/);
 });
 
 function createMockResponse() {
