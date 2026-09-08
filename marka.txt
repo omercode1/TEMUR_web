@@ -1,0 +1,476 @@
+TEMUR STUDIO — MARKA KİMLİĞİ, STRATEJİ VE INSTAGRAM GÖRSEL DİLİ
+================================================================
+Kaynak: mevcut website, form dili, renk sistemi, tipografi ve konumlandırma.
+Tarih: 2026
+Durum: Canlı site kimliği esas alınmıştır. Instagram henüz yayında değildir; bu belge hesabın nasıl kurulacağını tanımlar.
+
+
+0. TEK CÜMLEDE MARKA
+--------------------
+TEMUR STUDIO; tasarımı, yazılımı ve dijital deneyimi aynı süreçte birleştirerek fikirleri çalışan dijital sistemlere dönüştüren bağımsız bir creative technology studio’dur.
+
+
+1. MARKA KİMLİĞİ
+----------------
+
+1.1 İsim ve yapı
+  Tam ad:          TEMUR STUDIO
+  Ana kelime:      TEMUR          (kalın, beyaz, display)
+  Niteleyici:      STUDIO         (daha açık, daha ince, aynı satırda)
+  Kurucu:          Ömer Temurtaş  (Founder & CEO)
+  Dil:             Türkçe (ana), teknik etiketlerde İngilizce (CREATIVE TECHNOLOGY STUDIO, DESIGN, DEVELOPMENT, SYSTEMS)
+  Konum:           Bağımsız stüdyo. Ajans kalabalığı, freelancer belirsizliği yok.
+  Kuruluş iması:   2026 / “Fikirden ürüne”
+
+  Logo kuralı:
+  - Wordmark esas alınır. İkon zorunlu değildir.
+  - TEMUR her zaman STUDIO’dan daha ağırdır.
+  - Monogram gerekirse tek harf: T (ince, geniş tracking, koyu zeminde düşük opaklık).
+  - Logo asla gradient rainbow, neon, 3D chrome, drop shadow, emoji ile kullanılmaz.
+  - Zemin: siyah veya çok koyu (#000 / #0a0a0c). Açık zemin istisnadır; o zaman siyah wordmark.
+
+1.2 Kategori
+  Creative Technology Studio
+  Tasarım stüdyosu + yazılım evi + dijital üretim atölyesi.
+  “Web ajansı”, “freelancer”, “startup”, “SaaS ürünü” değildir.
+  Satılan şey şablon site değil; ihtiyaca göre inşa edilmiş sistemdir.
+
+1.3 Marka vaadi
+  Fikirleri çalışan dijital ürünlere dönüştürmek.
+  Dijital kaosu düzenlemek, işi büyütecek sağlam yapılar kurmak.
+  Sadece görünen arayüz değil; arkasındaki mimari, veri akışı, otomasyon ve sürdürülebilirlik.
+
+1.4 Konumlandırma cümleleri (site’den, değiştirilmeden kullanılabilir)
+  - Sistemler inşa ediyoruz.
+  - Biz sadece web sitesi yapmıyoruz. İhtiyaca yönelik, estetik ve sağlam temelli dijital sistemler tasarlıyoruz.
+  - İhtiyaca göre tasarlıyor, ürüne göre geliştiriyoruz.
+  - Hazır şablonlar değil, sistem mühendisliği ve dijital işçilik gerektiren özel çözümler üretiyoruz.
+  - Fikirden ürüne giden yol.
+  - Uçtan uca dijital üretim.
+  - Bir fikrin mi var? Sadece konseptte kalmasın.
+  - Ne inşa etmek istiyorsunuz?
+
+1.5 Karakter / kişilik
+  Ciddi ama soğuk değil.
+  Teknik ama jargona boğulmaz.
+  Premium ama şatafatlı değil.
+  Kendinden emin, kısa, net, doğrudan.
+  Kurucu-yüzlü (founder-led): Ömer görünür; stüdyo anonim bir logo değildir.
+
+  Dört ilke (site):
+  1. Amaca yönelik tasarım     — gerçek problem, gereksiz özellik yok
+  2. Performans odaklı         — yavaş sayfaya tahammül yok
+  3. Ölçeklenebilir mimari     — bugün çalışır, yarını kilitlemez
+  4. Şeffaf iletişim           — müşteri her aşamada ne olduğunu bilir
+
+1.6 Ses ve dil (tone of voice)
+  Hitap: “siz / sizin”. Samimi “sen” Instagram’da ölçülü kullanılabilir, satışta kullanılmaz.
+  Cümleler kısa. Fiil güçlü: inşa etmek, düzenlemek, dönüştürmek, tanımlamak.
+  Üst başlıklar çoğunlukla Türkçe, sistem etiketleri İngilizce ve MONO / KAPİTAL:
+    CREATIVE TECHNOLOGY STUDIO
+    START A PROJECT
+    PROJECT RECEIVED
+    DESIGN / DEVELOPMENT / SYSTEMS / DIGITAL
+    WEB / SOFTWARE / BRAND / DIGITAL
+
+  Kullan:
+  - sistem, yapı, üretim, süreç, ürün, ihtiyaç, performans, mimari
+  - “birlikte tanımlayalım”, “üretim sürecine geçelim”
+
+  Kullanma:
+  - “hayallerinizi gerçeğe dönüştürüyoruz”
+  - “sektörün lideri”, “en iyi ajans”, “growth hacking”
+  - abartılı emoji, ünlem yağmuru, influencer dili
+  - ucuzluk / indirim / “bu hafta kampanya”
+  - mor-pembe gradient startup klişesi, “AI wizard” mizahı
+
+  Dual dil kuralı:
+  Türkçe gövde + İngilizce sistem etiketi. İkisi bir arada durur, karışmaz.
+  Örnek: üstte “SÜREÇ”, altta “Fikirden ürüne giden yol.”
+
+
+2. AMAÇ
+-------
+
+2.1 İş amacı
+  Nitelikli proje talebi üretmek.
+  Site bir vitrin değil, satış hunisinin ilk adımıdır. Ana CTA her yerde aynıdır: “Proje Başlat”.
+  Form ~2 dakikadır. Amaç: rastgele teklif değil, kapsamı belli brief.
+
+  Formun sorduğu şey markanın ne sattığını da gösterir:
+  Web sitesi, web uygulaması, özel yazılım, masaüstü/local program,
+  otomasyon, AI entegrasyonu, branding & dijital kimlik.
+
+2.2 Marka amacı
+  TEMUR’u “site yapan biri” olarak değil, “sistem kuran stüdyo” olarak yerleştirmek.
+  Tasarım ile kodun ayrılmadığı bir üretim kültürü göstermek.
+  Kurucuyu güven figürü yapmak: doğrudan iletişim, hızlı dönüş, şeffaf süreç.
+
+2.3 İletişim amacı (web + Instagram ortak)
+  1. Güven: bu iş ciddi, ölçülü, üretimi bitiren bir yer.
+  2. Netlik: ne yapıldığı 5 saniyede anlaşılır.
+  3. Seçicilik: herkese değil, gerçek problemi ve bütçesi olan müşteriye.
+  4. Dönüşüm: görsel → site → /start-project.
+
+2.4 Olmayan amaçlar
+  Viral olmak, follower yarışı, reel dansı, günlük meme.
+  Eğitim akademisi, kurs satışı, şablon marketplace.
+  “Her bütçeye site” vaadi.
+
+
+3. WEBSITE TEMASI (GÖRSEL VE DENEYİM DİLİ)
+------------------------------------------
+Instagram bu temanın sosyal medyadaki uzantısıdır. Site anayasadır.
+
+3.1 Mekân hissi
+  Gece laboratuvarı / kontrol odası / derin uzay.
+  Siyah zemin, ince ızgara, köşe işaretleri (tech-corners), tek piksel çizgiler,
+  düşük opaklıklı ışık, custom cursor, preloader.
+  Lüks otel değil; hassas alet. Gösteriş değil, kontrol.
+
+3.2 Renk
+  Arka plan:     #000000
+  Yüzey:         #0a0a0c
+  Yüzey hover:   #121216
+  Vurgu:         #f8fafc   (beyaz / neredeyse beyaz — renkli accent YOK)
+  Metin birincil:#ffffff
+  Metin ikincil: #94a3b8
+  Metin üçüncül: #475569
+  Çizgi:         beyaz %5–20 opaklık
+  Izgara:        64px (arka plan), 32px (görsel overlay)
+
+  Renk kuralı:
+  Palet monokromdur. Accent renk beyazdır.
+  Kodda indigo/violet gölgeler (hero partikül, form arka planı) atmosferdir; marka rengi değildir.
+  Instagram’da mor, mavi, turuncu “marka rengi” diye basılmaz.
+  Tek vurgu: beyaz ışık, ince çizgi, boşluk.
+
+3.3 Tipografi
+  Display (başlık):  Manrope — çok sıkı tracking, büyük punto, kırık satır
+  Gövde:             Plus Jakarta Sans — sakin, okunaklı
+  Sistem / etiket:   JetBrains Mono — uppercase, geniş tracking (0.2em–0.3em)
+
+  Başlıklar kısa ve mimari:
+  “Sistemler inşa ediyoruz.”
+  “Bir fikrin mi var?”
+  Nokta, tek cümle, gereksiz süs yok.
+
+3.4 Şekil dili
+  Dikdörtgen, 1px border, keskin köşe.
+  Köşe braketleri (tech-corners).
+  Daire: scroll, süreç halkası, disiplin haritası — süs değil, yapı.
+  Küçük kare / nokta: durum ışığı (Active, est. 2026).
+  İkon: ince stroke, küçük, lucide tarzı. Renkli 3D ikon yok.
+  Fotoğraf: koyu overlay, ızgara bindirmesi, düşük doygunluk. Stok “mutlu ekip masası” yok.
+
+3.5 Hareket
+  Yavaş, ağır, kontrollü. Ease: cubic-bezier(0.22, 1, 0.36, 1) ailesi.
+  Fade + hafif Y. Blur çıkışlı sayfa geçişi.
+  Mobilde ve reduced-motion’da sadeleşir.
+  Instagram’da da: hızlı jump-cut ve shake yok. Kaydırma, fade, çizgi çizilmesi.
+
+3.6 UX teması
+  Ana sayfa hikâyesi:
+  Kimlik (hero) → manifesto → hizmetler → süreç → işler → yetkinlik → ilkeler → kurucu → CTA
+  Her bölüm ince bir çizgiyle ayrılır. CTA tek: Proje Başlat.
+  Form: siyah zemin, tek soru, ilerleme çizgisi, honeypot + ciddi teslim dili.
+  Referans kodu (TEM-2026-xxxx) “sipariş no” değil, üretim kaydı hissi verir.
+
+
+4. MÜŞTERİ KİTLESİ
+------------------
+
+4.1 Birincil kitle (para buradan gelir)
+  Türkiye’de (ve TR/EN çalışan) KOBİ, marka ve operasyon sahibi.
+  Karar verici: kurucu, genel müdür, pazarlama/operasyon yöneticisi.
+  İhtiyacı netleşmiş veya netleşmek üzere:
+  - kurumsal site / dijital vitrin
+  - iç yazılım, panel, otomasyon
+  - e-ticaret / headless deneyim
+  - mevcut sistemi yenileme veya devam eden projeye destek
+  - AI’yı süse değil iş sürecine bağlamak
+  Bütçe aralığı sitede: konuşulur; 10.000 TL altı “ucuz site” vaadi yok.
+  Zaman: 1–3 ay tipik; kurumsal site 4–6 hafta, uygulama 2–4 ay.
+
+4.2 İkincil kitle
+  Tasarım + yazılımı aynı yerde isteyen ürün ekipleri.
+  “Sadece logo” değil, dijital kimlik + web + sistem isteyen markalar.
+  Teknik borcu olan, modernleştirmek isteyen ekipler.
+
+4.3 Kitle psikolojisi
+  Ne ister: çalışan ürün, net süreç, şeffaf iletişim, performans, ölçek.
+  Neden korkar: ajansın kaybolması, şablon site, teslim edilmeyen proje, jargon, sürpriz fatura.
+  TEMUR cevabı: kısa form, numbered süreç (Keşfet → … → İyileştir), kurucu yüzü, “gereksiz özellik yok”.
+
+4.4 Anti-kitle (bilinçli uzak durulan)
+  “5000 TL’ye site”
+  Sadece sosyal medya yönetimi isteyen
+  Kararsız, brief’siz, “bir bakın” turu
+  Trend peşinde her hafta pivot eden
+  Instagram’da bu kitleye seslenilmez; içerik onları elemez.
+
+4.5 Müşterinin Instagram’da göreceği benlik
+  “Bu hesap bir influencer değil, üretim stüdyosu.
+   Görseller sakin, koyu, düzenli. Satış bağırmaz.
+   Siteye gidersem ciddi bir form var. Yazarsam Ömer cevaplar.”
+
+
+5. İZLENECEK YOL (MARKA STRATEJİSİ)
+-----------------------------------
+Sıra önemlidir. Görsel üretimi 3. adımdan önce şişirilmez.
+
+ADIM 1 — Kimliği sabitle
+  Bu belge anayasadır.
+  Wordmark, renk, tipografi, cümleler kilitlenir.
+  Bio, highlight isimleri, sabit hikâye bu belgeden çıkar.
+  Yeni slogan uydurulmaz; sitedeki cümleler kullanılır.
+
+ADIM 2 — Kanıt üret
+  Instagram’dan önce gerçek iş:
+  2–3 vaka (şu an sitedeki üç konsept: finans paneli, e-ticaret, otomasyon
+  gerçek müşteri işine dönüştükçe “konsept” etiketi kalkar).
+  Süreç görselleştirilir: keşif notu, wire, arayüz, kod, yayın.
+  Kurucu görünür: stüdyo anonim kalmaz.
+
+ADIM 3 — Instagram’ı vitrin değil, süzgeç yap
+  Amaç follower değil, doğru DM / site tıklaması.
+  Her içerik bir sonraki adıma bağlanır: profil linki = website,
+  CTA = “Proje Başlat” veya “Brief için yazın”.
+  Haftalık ritmi küçük tut: 3–4 feed + 2–4 story yeter.
+  Reels varsa yavaş, sessiz-uyumlu, sistem estetiği.
+
+ADIM 4 — Seçici büyüme
+  Hedef sektörler (örnek, dar tut):
+  finans / operasyon panelleri, e-ticaret deneyimi, iç yazılım, otomasyon.
+  İş birliği: kalitesiz ajans dump’ı yok.
+  Yorum ve DM dili sitedeki form kadar net.
+
+ADIM 5 — Site ile sosyal medyayı kilitle
+  Yeni hizmet, yeni cümle, yeni renk önce siteye girer; sonra Instagrama.
+  Instagram asla siteden daha renkli, daha “eğlenceli”, daha ucuz görünmez.
+
+
+6. INSTAGRAM HESABI — KURULUM
+-----------------------------
+
+6.1 Profil
+  Kullanıcı adı:     temur.studio   veya  temurstudio
+                     (temur, temurstudiotr, creativeemojili varyasyon yok)
+  İsim alanı:        TEMUR STUDIO
+  Unvan:             Creative Technology Studio
+  Bio önerisi (max net):
+    Sistemler inşa ediyoruz.
+    Tasarım, yazılım ve dijital deneyim — tek süreç.
+    Fikirden çalışan ürüne.
+    ↓ Proje başlat
+  Dış link:          website (öncelik /start-project değil ana domain; CTA bio’da)
+  Profil fotoğrafı:  Siyah zemin, beyaz TEMUR wordmark veya tek T.
+                     Fotoğraf yüzü profilde zorunlu değil; highlight veya reels’te kurucu görünür.
+  Highlight kapakları: siyah zemin, 1px çerçeve, mono etiket
+    İŞLER | SÜREÇ | STÜDYO | SSS | İLETİŞİM
+
+6.2 Grid mimarisi (feed bir poster duvarıdır)
+  3 sütun bir sistem gibi okunur. Rastgele renk patlaması yok.
+  Önerilen repeating pattern (örnek 9’lu blok):
+
+    [01 MANIFESTO]  [02 İŞ KIRPIMI]  [03 SÜREÇ]
+    [04 SİSTEM]     [05 KURUCU]      [06 İŞ KIRPIMI]
+    [07 İLKE]       [08 CTA]         [09 DETAY / TİPO]
+
+  Her blok koyu. Beyaz alan %10’u geçmez.
+  Yan yana iki yüksek kontrastlı renkli iş görseli koyulmaz; araya manifesto veya boşluklu tipografi girer.
+
+6.3 İçerik sütunları (pillars)
+  A. Manifesto     — “Sistemler inşa ediyoruz.” / ilkeler / anti-şablon
+  B. İş            — UI kırpımı, before/after yapı, panel, akış
+  C. Süreç         — 01 Keşfet … 07 İyileştir, brief’ten yayına
+  D. Sistem        — ızgara, tipografi, otomasyon diyagramı, mimari
+  E. Kurucu        — Ömer, stüdyo disiplini (strateji / tasarım / geliştirme)
+  F. Kapı          — “Bir fikrin mi var?” / Proje Başlat / 2 dakikalık brief
+
+  Oran önerisi (aylık):
+  İş %30  |  Süreç+Sistem %30  |  Manifesto %20  |  Kurucu %10  |  Kapı %10
+
+6.4 Caption dili
+  İlk satır: başlık cümlesi (siteden).
+  Gövde: 2–4 kısa paragraf. Jargon varsa bir kez, açıklayarak.
+  Son: tek CTA. Hashtag az ve işlevsel (5–8).
+  Örnek:
+    Sistemler inşa ediyoruz.
+    Şablon site değil. İhtiyaca göre tasarlanan, ürüne göre yazılan yapı.
+    Süreç: keşfet → tanımla → tasarla → geliştir → test et → yayınla → iyileştir.
+    Projen varsa site üzerinden brief bırak.
+    #creative technology yerine TR: #dijitalürün #yazılımstüdyosu #uidesign
+    Marka hashtag: #temurstudio  (tek, tutarlı)
+
+6.5 Story
+  Feed kadar koyu.
+  Anket: “Şu an ihtiyacınız?” → Site / Panel / Otomasyon / Emin değilim
+  (form seçenekleriyle birebir: mesaj birliği)
+  Link sticker: Proje Başlat
+  Günlük kahve, rastgele selfie, trending audio zorlaması yok.
+  Kurucu görünürse: stüdyo/ekran, sakin ışık, konuşma altyazısı mono.
+
+
+7. INSTAGRAM GÖRSELLERİ NASIL OLMALI
+------------------------------------
+Bu bölüm üretim spec’idir. Tasarımcı veya AI görsel üreticisi buna uyar.
+
+7.1 Tuval
+  Feed kare:     1080 x 1080
+  Portrait:      1080 x 1350  (tercih: daha fazla nefes, grid’de güçlü)
+  Reels kapak:   1080 x 1920  (üst-alt %15 güvenli alan: wordmark kesilmesin)
+  Carousel:      1080 x 1350, 5–8 slayt, slayt 01 numara + başlık
+
+  Kenar boşluğu: en az 64px (sitedeki ızgara).
+  İçerik asla kenara yapışmaz.
+
+7.2 Zemin
+  Düz #000000 veya #0a0a0c.
+  İsteğe bağlı: 64px ızgara, opaklık %2–4, beyaz.
+  İsteğe bağlı: çok düşük radial glow (beyaz, %3–6). Renkli glow yok.
+  Form sayfasındaki mor radial Instagram’da varsayılan zemin OLMAZ.
+  Gürültü/grain çok hafif olabilir; glitch, RGB split, cyberpunk overlay yok.
+
+7.3 Kompozisyon şablonları (tekrar kullanılacak 6 şablon)
+
+  ŞABLON A — Manifesto
+  Üstte mono etiket:  CREATIVE TECHNOLOGY STUDIO
+  Ortada Manrope bold, 2–4 kelime, tracking sıkı:
+    SİSTEMLER
+    İNŞA
+    EDİYORUZ.
+  Altta ince çizgi + TEMUR STUDIO wordmark.
+  Fotoğraf yok.
+
+  ŞABLON B — İş kırpımı
+  UI ekran görüntüsü, perspektif yok veya çok hafif.
+  Üzerinde koyu gradient (alttan %40–70 siyah).
+  32px ızgara overlay, opaklık düşük.
+  Sol alt: 01 — DIGITAL PRODUCT
+  Başlık: Finansal Yönetim Paneli
+  Sağ üst: küçük kare ok butonu (sitedeki like).
+  Ekran görüntüsü aşırı doygun, mockup içinde iPhone stok sahnesi olmasın.
+  Cihaz mockup kullanılacaksa: siyah cihaz, siyah stüdyo, gölge minimal.
+
+  ŞABLON C — Süreç numarası
+  Dev mono rakam: 01 … 07 (beyaz %15–30)
+  Üstünde küçük etiket: SÜREÇ
+  Kelime: KEŞFET / TANIMLA / TASARLA / GELİŞTİR / TEST ET / YAYINLA / İYİLEŞTİR
+  Altında bir cümle, ikincil gri (#94a3b8).
+  Fotoğraf varsa: soyut teknik makro, desatüre, ızgara altında.
+
+  ŞABLON D — İlke kartı
+  Sol 2px dikey beyaz çizgi (servis hover’daki gibi).
+  Başlık: Amaca Yönelik Tasarım
+  Gövde kısa.
+  Köşe braketleri (tech-corners).
+
+  ŞABLON E — Kurucu / stüdyo
+  Solda isim: ÖMER / TEMURTAŞ (büyük, kırık satır, beyaz→soluk gradient)
+  Altında pill: FOUNDER & CEO
+  Sağda veya altta: STRATEJİ — TASARIM — GELİŞTİRME halkası
+  Merkez rozet: TEMUR STUDIO / FİKİRDEN ÜRÜNE
+  Yüz fotoğrafı varsa: yüksek kontrast, koyu, düz ışık, renkli bokeh yok.
+
+  ŞABLON F — Kapı (CTA)
+  Ortada küçük kare border içinde 2px nokta (sitedeki CTA ikonu).
+  Başlık: Bir fikrin mi var?
+  Alt: Sadece konseptte kalmasın.
+  Buton görseli: beyaz dolgu veya 1px border, uppercase, tracking wide:
+    PROJE BAŞLAT
+  Link vaadi görselde yazılmaz (“linkin bio” küçük, altta, mono).
+
+7.4 Fotoğraf ve render kuralları
+  Olmalı:
+  - gerçek arayüz, gerçek diyagram, gerçek tipografi
+  - koyu, desatüre, keskin
+  - boşluk bol, tek odak
+
+  Olmamalı:
+  - Unsplash “laptop on marble”, el sıkışma, neon ofis
+  - Midjourney cam cubeler, uçan krom logolar, mor sis
+  - Canva gradient, blob, 3D ok
+  - Comic Sans / Poppins/Inter default poster
+  - kırmızı indirim bandı, “YENİ!” sticker
+  - her karede farklı filtre
+
+  AI görsel kullanılacaksa:
+  prompt’a “black studio, white typography, 1px grid, no color accent,
+  editorial, Manrope, technical diagram, restrained, no neon, no purple haze”
+  Çıktı mutlaka ızgara + wordmark ile kompoze edilir; raw AI karesi yayınlanmaz.
+
+7.5 Hareketli görsel (Reels / Story)
+  Süre: 6–15 sn (feed cover durağan kalmalı).
+  Hareket: çizginin büyümesi, rakamın fade’i, UI’nin yavaş pan’i, preloader çizgisi.
+  Müzik: opsiyonel, düşük, cinematic/minimal. Trend ses zorunlu değil.
+  Yazı: aynı tipografi. Caption burn-in: beyaz, az satır.
+  Hook ilk 1 sn: büyük bir iddia veya numara, yüz değil.
+
+7.6 Carousel anlatısı (örnek “Süreç”)
+  1. Kapak: Fikirden ürüne giden yol.  SÜREÇ
+  2–8. Her adım bir slayt, şablon C
+  Son slayt: Şablon F, CTA
+  Slaytlar aynı margin, aynı punto, aynı çizgi kalınlığı. Kaydırırken zıplamaz.
+
+7.7 Kapak ve pinned
+  Pinned 3’lü:
+  1. Manifesto (Şablon A)
+  2. En net iş (Şablon B)
+  3. Kapı (Şablon F)
+  Reels kapakları da feed ile aynı aile: numara + tek kelime, fotoğraf kalabalığı yok.
+
+
+8. MESAJ HARİTASI (NE SÖYLENİR, NE SÖYLENMEZ)
+---------------------------------------------
+Söylenir:
+  sistem, yapı, ihtiyaç, üretim, performans, şeffaflık, uçtan uca, fikirden ürün
+  web deneyimi, web uygulaması, özel yazılım, otomasyon, AI entegrasyonu, marka sistemi
+
+Söylenmez:
+  ucuz, hızlıca hallederiz, viral, hack, ajans kralı, 24 saatte site
+  “AI her şeyi yapıyor” (AI, iş sürecine entegre edilen bir katmandır)
+
+Rakip ayrımı (görselde de):
+  Tipik ajans: renkli, stock, “hayal”, mor CTA
+  TEMUR: siyah, ızgara, numara, beyaz CTA, kurucu, süreç
+
+
+9. UYGULAMA KONTROL LİSTESİ (HER GÖRSEL ÖNCE BUNU GEÇER)
+--------------------------------------------------------
+  [ ] Zemin siyah / near-black
+  [ ] Accent renk yok (beyaz ve gri dışında marka rengi yok)
+  [ ] Manrope + (etiket varsa) JetBrains Mono
+  [ ] En az 64px nefes
+  [ ] Wordmark veya T doğru ağırlıkta (TEMUR > STUDIO)
+  [ ] Birincil mesaj 3 saniyede okunuyor
+  [ ] Stok mutluluk / neon / mor sis yok
+  [ ] Site ile aynı cümle ailesi
+  [ ] CTA varsa tek ve sakin
+  [ ] Grid’de yanındaki karelerle çatışmıyor
+
+
+10. HAZIR METİN BANKASI
+-----------------------
+Bio kısa:     Sistemler inşa ediyoruz. Tasarım × yazılım × dijital deneyim.
+Highlight:    İŞLER / SÜREÇ / STÜDYO / SSS / İLETİŞİM
+CTA:          Proje Başlat
+CTA alt:      Yaklaşık 2 dakika
+Kurucu:       Tasarım ve geliştirmeyi aynı süreçte ele alıyoruz.
+Reddediş:     Hazır şablonlar değil. İhtiyaca göre tasarlıyor, ürüne göre geliştiriyoruz.
+Kapanış:      Sadece konseptte kalmasın.
+
+Hizmet etiketleri (görsel numara ile):
+  01 Web Deneyimleri
+  02 Web Uygulamaları
+  03 Özel Yazılım
+  04 Otomasyon
+  05 Yapay Zeka Sistemleri
+  06 Marka & Dijital
+
+
+SON
+---
+TEMUR STUDIO’nun Instagram’ı bir parti hesabı değil, karanlık bir stüdyo vitrinidir.
+Her kare siteye benzemek zorundadır: siyah, beyaz, ızgara, numara, kısa cümle, tek kapı.
+Amaç beğeni değil; doğru kişinin “bu işi ciddiye alıyorlar” deyip proje başlatmasıdır.

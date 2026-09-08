@@ -1,0 +1,11 @@
+export { Hero } from './Hero';
+export { CapabilityStatement } from './CapabilityStatement';
+export { Services } from './Services';
+export { Process } from './Process';
+export { SelectedWork } from './SelectedWork';
+export { Capabilities } from './Capabilities';
+export { WhyUs } from './WhyUs';
+export { FAQ } from './FAQ';
+export { Founder } from './Founder';
+export { LogoMarquee } from './LogoMarquee';
+export { ProjectCTA } from './ProjectCTA';
