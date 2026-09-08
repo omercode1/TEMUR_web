@@ -13,6 +13,16 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(405).json({ error: 'Yalnızca POST istekleri kabul edilir.' });
   }
 
-  const result = await processProjectInquiry(req.body);
+  const result = await processProjectInquiry(parseRequestBody(req.body));
   return res.status(result.status).json(result.body);
+}
+
+function parseRequestBody(body: unknown) {
+  if (typeof body !== 'string' && !Buffer.isBuffer(body)) return body;
+
+  try {
+    return JSON.parse(Buffer.isBuffer(body) ? body.toString('utf8') : body);
+  } catch {
+    return undefined;
+  }
 }

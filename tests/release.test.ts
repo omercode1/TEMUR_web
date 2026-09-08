@@ -116,3 +116,38 @@ test('Vercel function validates inquiry payloads before delivery', async () => {
 
   assert.equal(response.statusCode, 400);
 });
+
+test('Vercel function accepts a JSON-string request body', async () => {
+  const response = createMockResponse();
+  const previousMock = process.env.VITE_PROJECT_INQUIRY_MOCK;
+  const previousSmtpHost = process.env.SMTP_HOST;
+
+  process.env.VITE_PROJECT_INQUIRY_MOCK = 'true';
+  delete process.env.SMTP_HOST;
+
+  try {
+    await vercelInquiryHandler(
+      {
+        method: 'POST',
+        body: JSON.stringify({
+          type: PROJECT_TYPES[0],
+          goal: 'Vercel JSON body compatibility test.',
+          stage: PROJECT_STAGES[0],
+          features: [],
+          budget: PROJECT_BUDGETS[0],
+          timeline: PROJECT_TIMELINES[0],
+          hasDeadline: false,
+          contact: { name: 'Test Kullanıcı', email: 'test@example.com', phone: '', company: '', preferred: PREFERRED_CONTACTS[0] },
+        }),
+      } as never,
+      response as never,
+    );
+
+    assert.equal(response.statusCode, 200);
+  } finally {
+    if (previousMock === undefined) delete process.env.VITE_PROJECT_INQUIRY_MOCK;
+    else process.env.VITE_PROJECT_INQUIRY_MOCK = previousMock;
+    if (previousSmtpHost === undefined) delete process.env.SMTP_HOST;
+    else process.env.SMTP_HOST = previousSmtpHost;
+  }
+});
