@@ -9,7 +9,7 @@
       "has": [
         {
           "type": "host",
-          "value": "^www\\.temurcode\\.com\\.tr$"
+          "value": "www.temurcode.com.tr"
         }
       ],
       "destination": "https://temurcode.com.tr/:path*",
