@@ -100,7 +100,7 @@ export function VerticalTabs({
                   key={tab.id}
                   onClick={() => handleTabClick(index)}
                   className={cn(
-                    "cursor-pointer group relative flex items-start gap-4 py-5 md:py-6 text-left transition-all duration-500",
+                    "hover-target group relative flex items-start gap-4 py-5 md:py-6 text-left transition-all duration-500",
                     isActive
                       ? "text-white"
                       : "text-white/40 hover:text-white/80"
@@ -185,7 +185,7 @@ export function VerticalTabs({
                     y: { type: "spring", stiffness: 360, damping: 28 },
                     opacity: { duration: 0.3 },
                   }}
-                  className="absolute inset-0 w-full h-full cursor-pointer"
+                  className="hover-target absolute inset-0 w-full h-full"
                   onClick={handleNext}
                 >
                   {/* Grain/Texture overlay on images for aesthetic */}

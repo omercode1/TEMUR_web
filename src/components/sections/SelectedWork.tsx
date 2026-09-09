@@ -140,7 +140,7 @@ function ProjectCard({ project, index, total, progress, prefersReducedMotion }: 
             </p>
           </div>
           
-          <div className="flex items-center gap-3 text-xs font-mono tracking-widest text-white/50 uppercase group-hover:text-white transition-colors mt-2 md:mt-0 cursor-pointer">
+          <div className="flex items-center gap-3 text-xs font-mono tracking-widest text-white/50 uppercase group-hover:text-white transition-colors mt-2 md:mt-0">
             İncele 
             <span className="w-8 h-[1px] bg-white/20 group-hover:bg-white transition-colors" />
           </div>

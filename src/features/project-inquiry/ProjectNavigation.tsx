@@ -39,7 +39,7 @@ export function ProjectNavigation({
           disabled={nextDisabled || isSubmitting}
           className={`hover-target relative z-10 inline-flex min-h-12 w-full sm:w-auto items-center justify-center gap-3 px-8 py-4 font-semibold text-sm uppercase tracking-widest tech-corners transition-all
             ${nextDisabled || isSubmitting
-              ? 'bg-white/5 text-white/30 border border-white/5 cursor-not-allowed' 
+              ? 'bg-white/5 text-white/30 border border-white/5'
               : 'bg-surface border border-white/20 text-white hover:bg-accent hover:border-accent hover:text-black active:scale-95'
             }
           `}

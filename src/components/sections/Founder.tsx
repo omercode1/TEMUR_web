@@ -32,7 +32,7 @@ export function Founder() {
   const opacity = useTransform(scrollYProgress, [0, 1], [0, 1]);
 
   return (
-    <section id="founder" ref={containerRef} className="py-24 md:py-32 relative bg-surface border-t border-white/5 overflow-hidden">
+    <section id="founder" ref={containerRef} data-testid="founder-section" className="py-16 md:py-32 relative bg-surface border-t border-white/5 overflow-hidden">
       <div className="absolute inset-0 pointer-events-none opacity-80 mix-blend-lighten">
         <ShaderBackground className="w-full h-full" />
       </div>
@@ -44,17 +44,17 @@ export function Founder() {
       </div>
 
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
-        <div className="flex flex-col lg:flex-row gap-16 lg:gap-24 items-stretch">
+        <div className="flex flex-col lg:flex-row gap-10 md:gap-16 lg:gap-24 items-stretch">
           
           {/* LEFT: Content — simple fade in, no parallax */}
           <motion.div 
-            style={shouldReduceMotion ? {} : { opacity }}
+            style={{ opacity: shouldReduceMotion ? 1 : opacity }}
             className="w-full lg:w-[55%] flex flex-col justify-center"
           >
 
             
-            <div className="mb-12 lg:mb-16 relative">
-              <h3 className="text-5xl md:text-6xl lg:text-7xl font-display font-bold text-transparent bg-clip-text bg-gradient-to-br from-white via-white to-white/40 tracking-tighter leading-[0.85] mb-6 drop-shadow-2xl">
+            <div className="mb-8 md:mb-12 lg:mb-16 relative">
+              <h3 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold text-transparent bg-clip-text bg-gradient-to-br from-white via-white to-white/40 tracking-tighter leading-[0.9] md:leading-[0.85] mb-5 md:mb-6 drop-shadow-2xl">
                 ÖMER<br />TEMURTAŞ
               </h3>
               <div className="inline-flex items-center gap-3 px-3 py-1.5 border border-white/10 bg-white/5">
@@ -65,10 +65,10 @@ export function Founder() {
               </div>
             </div>
             
-            <div className="relative space-y-8 max-w-xl lg:mb-16">
+            <div className="relative space-y-6 md:space-y-8 max-w-xl lg:mb-16">
               <div className="absolute left-0 top-2 bottom-2 w-[1px] bg-white/10 hidden md:block" />
               
-              <p className="text-2xl md:text-[28px] text-white/95 leading-[1.3] text-balance font-medium tracking-tight md:pl-8">
+              <p className="text-xl md:text-[28px] text-white/95 leading-[1.35] md:leading-[1.3] text-balance font-medium tracking-tight md:pl-8">
                 {founderData.primaryStatement}
               </p>
               
@@ -90,8 +90,9 @@ export function Founder() {
           {/* RIGHT: Studio disciplines map — static, no parallax */}
           <div className="w-full lg:w-[45%] flex items-center justify-center lg:justify-end relative">
             <motion.div 
-              style={shouldReduceMotion ? {} : { opacity }}
-              className="relative w-full max-w-[400px] aspect-square"
+              data-testid="founder-map"
+              style={{ opacity: shouldReduceMotion ? 1 : opacity }}
+              className="relative w-full max-w-[280px] sm:max-w-[320px] md:max-w-[400px] aspect-square"
             >
               <div className="absolute inset-[12%] rounded-full border border-white/[0.08]" />
               <div className="absolute inset-[22%] rounded-full border border-dashed border-white/[0.12]" />
@@ -121,7 +122,7 @@ export function Founder() {
           </div>
 
           {/* Mobile capabilities */}
-          <div className="block lg:hidden w-full pt-8 mt-2 border-t border-white/5">
+          <div className="block lg:hidden w-full pt-6 border-t border-white/5">
             <div className="flex items-center justify-center gap-3">
               <span className="w-3 h-[1px] bg-white/20"></span>
               <p className="text-[9px] sm:text-[10px] font-mono tracking-[0.3em] text-white/30 uppercase text-center">

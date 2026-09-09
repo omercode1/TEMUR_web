@@ -59,7 +59,7 @@ export function Capabilities() {
                         delay: (groupIdx * 0.1) + (techIdx * 0.05),
                         ease: "easeOut"
                       }}
-                      className="px-4 py-2 rounded-full bg-surface border border-white/5 text-sm text-text-secondary hover:text-text-primary hover:border-white/20 transition-colors cursor-default"
+                      className="px-4 py-2 rounded-full bg-surface border border-white/5 text-sm text-text-secondary hover:text-text-primary hover:border-white/20 transition-colors"
                     >
                       {tech}
                     </motion.li>

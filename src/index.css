@@ -44,11 +44,11 @@
 }
 
 @media (hover: hover) and (pointer: fine) {
-  body {
-    cursor: none;
-  }
-  a, button, input, textarea, select {
-    cursor: none;
+  /* The site uses CustomCursor on desktop. Keep browser cursor utilities from
+     reintroducing a second system cursor inside individual components. */
+  body,
+  body * {
+    cursor: none !important;
   }
 }
 
