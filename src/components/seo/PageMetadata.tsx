@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 const siteUrl = 'https://temurcode.com.tr';
-const socialImage = `${siteUrl}/images/temurcode-og.png`;
+const socialImage = `${siteUrl}/images/temur-og.png`;
 
 const pages = {
   '/': {
