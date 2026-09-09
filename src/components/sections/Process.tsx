@@ -5,43 +5,43 @@ const processStages: TabItem[] = [
     id: "01", 
     title: "Keşfet", 
     description: "Kod yazmadan önce problemi, iş hedeflerini ve teknik gereksinimleri analiz ediyoruz.",
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop"
   },
   { 
     id: "02", 
     title: "Tanımla", 
     description: "Projenin temel iskeletini, veri akışını ve sistem altyapısını planlıyoruz.",
-    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1200&auto=format&fit=crop"
   },
   { 
     id: "03", 
     title: "Tasarla", 
     description: "Marka kimliğine uygun, kullanıcı odaklı, temiz ve etkili arayüzler tasarlıyoruz.",
-    image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=2000&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=1200&auto=format&fit=crop"
   },
   { 
     id: "04", 
     title: "Geliştir", 
     description: "Ölçeklenebilir, performanslı ve modern standartlara uygun kod yazıyoruz.",
-    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&auto=format&fit=crop"
   },
   { 
     id: "05", 
     title: "Test Et", 
     description: "Güvenlik, hız, erişilebilirlik ve edge-case senaryolarını titizlikle test ediyoruz.",
-    image: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?q=80&w=1974&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?q=80&w=1200&auto=format&fit=crop"
   },
   { 
     id: "06", 
     title: "Yayınla", 
     description: "Sıfır kesinti ve dikkatli bir izleme süreci ile ürünü production ortamına taşıyoruz.",
-    image: "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?q=80&w=2011&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?q=80&w=1200&auto=format&fit=crop"
   },
   { 
     id: "07", 
     title: "İyileştir", 
     description: "Gerçek kullanıcı verilerine dayanarak iterasyonlar yapıyor ve sistemi ölçeklendiriyoruz.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop"
   }
 ];
 

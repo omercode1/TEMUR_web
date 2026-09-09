@@ -14,7 +14,7 @@ function AnimatedRoutes() {
   const [isInitialLoad, setIsInitialLoad] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => setIsInitialLoad(false), 1800);
+    const timer = setTimeout(() => setIsInitialLoad(false), 700);
     return () => clearTimeout(timer);
   }, []);
 

@@ -49,7 +49,7 @@ export function Hero() {
           </motion.div>
 
           <motion.h1 
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 1, y: 30 }}
             animate={isLoaded ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 1.2, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
             className="text-5xl md:text-7xl lg:text-[7.5rem] font-display font-bold text-white tracking-tighter leading-[1] text-balance mb-8 drop-shadow-xl"
