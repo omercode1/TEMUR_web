@@ -4,6 +4,7 @@ import { Suspense, lazy, useState, useEffect } from 'react';
 import { Preloader } from './components/ui/Preloader';
 import { PageTransition } from './components/layout/PageTransition';
 import { CustomCursor } from './components/ui/CustomCursor';
+import { PageMetadata } from './components/seo/PageMetadata';
 
 const Home = lazy(() => import('./pages/Home').then((module) => ({ default: module.Home })));
 const StartProject = lazy(() => import('./pages/StartProject').then((module) => ({ default: module.StartProject })));
@@ -40,6 +41,7 @@ function AnimatedRoutes() {
 export default function App() {
   return (
     <BrowserRouter>
+      <PageMetadata />
       <CustomCursor />
       <AnimatedRoutes />
     </BrowserRouter>

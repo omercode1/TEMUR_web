@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://temurcode.com.tr/sitemap.xml
