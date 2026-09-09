@@ -5,6 +5,17 @@
   "outputDirectory": "dist",
   "redirects": [
     {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.temurcode.com.tr"
+        }
+      ],
+      "destination": "https://temurcode.com.tr/",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [
         {
