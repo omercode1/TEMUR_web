@@ -3,6 +3,19 @@
   "framework": "vite",
   "buildCommand": "npm run build:client",
   "outputDirectory": "dist",
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "^www\\.temurcode\\.com\\.tr$"
+        }
+      ],
+      "destination": "https://temurcode.com.tr/:path*",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/(.*)",
