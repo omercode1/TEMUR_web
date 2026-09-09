@@ -39,6 +39,18 @@
   ],
   "headers": [
     {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "temur-web-tau.vercel.app"
+        }
+      ],
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex, follow" }
+      ]
+    },
+    {
       "source": "/start-project",
       "headers": [
         { "key": "X-Robots-Tag", "value": "noindex, follow" }
