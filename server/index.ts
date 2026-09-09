@@ -23,7 +23,7 @@ app.use(
             fontSrc: ["'self'", 'https://fonts.gstatic.com'],
             formAction: ["'self'"],
             frameAncestors: ["'self'"],
-            imgSrc: ["'self'", 'data:'],
+            imgSrc: ["'self'", 'data:', 'https://images.unsplash.com'],
             objectSrc: ["'none'"],
             scriptSrc: ["'self'"],
             styleSrc: ["'self'", "'unsafe-inline'", 'https://fonts.googleapis.com'],
@@ -46,8 +46,15 @@ async function startServer() {
   } else {
     const distPath = path.join(process.cwd(), 'dist');
     app.use(express.static(distPath));
-    app.get('/{*splat}', (_req, res) => {
+    app.get('/start-project', (_req, res) => {
+      res.setHeader('X-Robots-Tag', 'noindex, follow');
       res.sendFile(path.join(distPath, 'index.html'));
+    });
+    app.get('/', (_req, res) => {
+      res.sendFile(path.join(distPath, 'index.html'));
+    });
+    app.use((_req, res) => {
+      res.status(404).type('text').send('Not Found');
     });
   }
 

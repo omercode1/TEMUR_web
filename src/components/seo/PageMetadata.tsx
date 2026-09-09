@@ -6,12 +6,14 @@ const socialImage = `${siteUrl}/images/temur-og.png`;
 
 const pages = {
   '/': {
-    title: 'TemurCode | Fikirleri çalışan dijital ürünlere dönüştürüyoruz.',
-    description: 'Tasarım, yazılım ve dijital deneyimi tek bir sistemde bir araya getiriyoruz.',
+    title: 'TemurCode | Özel Yazılım, Web ve AI Çözümleri',
+    description: 'TemurCode; işletmeler için özel yazılım, web uygulamaları, yapay zekâ entegrasyonları, otomasyon sistemleri ve dijital ürünler geliştirir.',
+    robots: 'index, follow',
   },
   '/start-project': {
     title: 'Proje Başlat | TemurCode',
     description: 'Fikrinizi, hedeflerinizi ve ihtiyaçlarınızı paylaşın; TemurCode ile projenizi birlikte şekillendirelim.',
+    robots: 'noindex, follow',
   },
 } as const;
 
@@ -31,10 +33,12 @@ export function PageMetadata() {
     document.head.querySelector<HTMLLinkElement>('link[rel="canonical"]')?.setAttribute('href', canonicalUrl);
 
     setMeta('meta[name="description"]', page.description);
+    setMeta('meta[name="robots"]', page.robots);
     setMeta('meta[property="og:title"]', page.title);
     setMeta('meta[property="og:description"]', page.description);
     setMeta('meta[property="og:url"]', canonicalUrl);
     setMeta('meta[property="og:image"]', socialImage);
+    setMeta('meta[name="twitter:url"]', canonicalUrl);
     setMeta('meta[name="twitter:title"]', page.title);
     setMeta('meta[name="twitter:description"]', page.description);
     setMeta('meta[name="twitter:image"]', socialImage);

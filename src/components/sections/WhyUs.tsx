@@ -29,10 +29,10 @@ export function WhyUs() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="mb-20">
           <h2 className="text-3xl md:text-4xl font-display font-bold text-white tracking-tight mb-6">
-            Biz kimiz?
+            TemurCode nasıl çalışır?
           </h2>
           <p className="text-lg md:text-xl text-text-secondary max-w-2xl leading-relaxed">
-            TEMUR; tasarım, yazılım ve dijital üretimi aynı süreçte buluşturan bağımsız bir creative technology studio. Hızlı, şeffaf ve doğrudan iletişimle çalışıyoruz.
+            TemurCode; işletmelerin operasyonlarını sadeleştiren özel yazılım, web uygulamaları ve dijital ürünler geliştiren bağımsız bir teknoloji stüdyosudur. İhtiyacı önce iş hedefleri ve kullanıcı akışlarıyla birlikte tanımlar; ardından tasarım, teknik mimari, geliştirme, test ve yayına alma adımlarını aynı üretim disiplini içinde yürütür. Gereksiz özellikler yerine net bir amaca hizmet eden, bakımı yapılabilir ve zamanla geliştirilebilir sistemler kurar. Süreç boyunca kararları görünür kılan, doğrudan ve şeffaf iletişimle çalışır.
           </p>
         </div>
 

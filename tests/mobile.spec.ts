@@ -17,7 +17,7 @@ async function expectNoHorizontalOverflow(page: Page) {
 test('home page works at a touch viewport without horizontal overflow', async ({ page }) => {
   await page.goto('/');
   await waitForApp(page);
-  await expect(page.getByRole('heading', { name: 'Sistemler inşa ediyoruz.' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'İşiniz için sistemler inşa ediyoruz.' })).toBeVisible();
   await expectNoHorizontalOverflow(page);
 
   await page.getByRole('button', { name: 'Menüyü aç' }).click();

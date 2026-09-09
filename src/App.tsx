@@ -24,16 +24,14 @@ function AnimatedRoutes() {
         {isInitialLoad && <Preloader key="preloader" />}
       </AnimatePresence>
 
-      {!isInitialLoad && (
-        <AnimatePresence mode="wait" onExitComplete={() => window.scrollTo(0, 0)}>
-          <Suspense fallback={<div className="min-h-screen bg-background" aria-busy="true" />}>
-            <Routes location={location} key={location.pathname}>
-              <Route path="/" element={<PageTransition><Home /></PageTransition>} />
-              <Route path="/start-project" element={<PageTransition><StartProject /></PageTransition>} />
-            </Routes>
-          </Suspense>
-        </AnimatePresence>
-      )}
+      <AnimatePresence mode="wait" onExitComplete={() => window.scrollTo(0, 0)}>
+        <Suspense fallback={<div className="min-h-screen bg-background" aria-busy="true" />}>
+          <Routes location={location} key={location.pathname}>
+            <Route path="/" element={<PageTransition><Home /></PageTransition>} />
+            <Route path="/start-project" element={<PageTransition><StartProject /></PageTransition>} />
+          </Routes>
+        </Suspense>
+      </AnimatePresence>
     </>
   );
 }

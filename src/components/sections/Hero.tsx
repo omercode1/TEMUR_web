@@ -54,7 +54,7 @@ export function Hero() {
             transition={{ duration: 1.2, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
             className="text-5xl md:text-7xl lg:text-[7.5rem] font-display font-bold text-white tracking-tighter leading-[1] text-balance mb-8 drop-shadow-xl"
           >
-            Sistemler<br className="hidden md:block"/> inşa ediyoruz.
+            İşiniz için<br className="hidden md:block"/> sistemler inşa ediyoruz.
           </motion.h1>
 
           <motion.p 
@@ -63,7 +63,7 @@ export function Hero() {
             transition={{ duration: 1.2, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
             className="text-lg md:text-2xl text-white/70 max-w-2xl leading-relaxed mb-16 text-balance font-light" style={{ textShadow: '0 2px 10px rgba(0,0,0,0.8)' }}
           >
-            Dijital kaosu düzenliyor, işinizi büyütecek <span className="text-white font-medium">kusursuz yapılar</span> kuruyoruz.
+            Özel yazılım, web uygulamaları, yapay zekâ entegrasyonları ve otomasyon sistemleriyle işinizi ileri taşıyan <span className="text-white font-medium">dijital ürünler</span> geliştiriyoruz.
           </motion.p>
 
           <motion.div 

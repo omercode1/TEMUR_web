@@ -7,12 +7,12 @@ const services = [
   {
     num: "01",
     title: "Web Deneyimleri",
-    desc: "Yüksek görsel etkiye ve akıcı performansa sahip, markanızı dijitalde konumlandıran premium web siteleri.",
+    desc: "Markanızı ve hedefinizi netleştiren; performansı, erişilebilirliği ve güçlü kullanıcı deneyimini bir arada tutan kurumsal web siteleri.",
   },
   {
     num: "02",
     title: "Web Uygulamaları",
-    desc: "Karmaşık iş mantıklarını yöneten, ölçeklenebilir, güvenli ve kullanıcı odaklı özel tarayıcı tabanlı platformlar.",
+    desc: "Modern web teknolojileriyle geliştirilen; karmaşık iş mantıklarını yöneten, ölçeklenebilir ve kullanıcı odaklı tarayıcı tabanlı platformlar.",
   },
   {
     num: "03",
@@ -43,12 +43,12 @@ export function Services() {
         <div className="mb-12 md:mb-24 flex flex-col md:flex-row md:items-end justify-between gap-6 md:gap-8">
           <div>
 
-            <h3 className="text-4xl md:text-5xl lg:text-7xl font-display font-bold text-white tracking-tight max-w-3xl">
+            <h2 className="text-4xl md:text-5xl lg:text-7xl font-display font-bold text-white tracking-tight max-w-3xl">
               İhtiyaca göre tasarlıyor,<br className="hidden md:block"/> ürüne göre geliştiriyoruz.
-            </h3>
+            </h2>
           </div>
           <p className="text-text-secondary max-w-md text-balance text-base md:text-lg font-light">
-            Hazır şablonlar değil, sistem mühendisliği ve dijital işçilik gerektiren özel çözümler üretiyoruz.
+            Özel yazılım, web uygulamaları, yapay zekâ entegrasyonları ve iş akışı otomasyonlarını; iş hedeflerinize göre çalışan dijital ürünlere dönüştürüyoruz.
           </p>
         </div>
 
@@ -85,9 +85,9 @@ function ServiceRow({ service, index }: { service: (typeof services)[number]; in
       </div>
       
       <div className="relative z-10 lg:w-2/4">
-        <h4 className="text-2xl md:text-5xl font-display font-semibold text-white mb-2 md:mb-4">
+        <h3 className="text-2xl md:text-5xl font-display font-semibold text-white mb-2 md:mb-4">
           {service.title}
-        </h4>
+        </h3>
         <p className="text-sm md:text-base leading-6 md:leading-relaxed max-w-xl group-hover:text-white transition-colors duration-300 font-light">
           {service.desc}
         </p>

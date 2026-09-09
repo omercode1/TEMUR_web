@@ -18,7 +18,7 @@ export function ProjectCTA() {
   const opacity = useTransform(scrollYProgress, [0, 1], [0, 1]);
 
   return (
-    <section id="start-project" ref={containerRef} className="py-24 md:py-32 relative overflow-hidden bg-background border-t border-white/5">
+    <section id="contact" ref={containerRef} className="py-24 md:py-32 relative overflow-hidden bg-background border-t border-white/5">
       {/* Static background — no animated grid, no FloatingPaths */}
       <div className="absolute inset-0 pointer-events-none"
         style={{

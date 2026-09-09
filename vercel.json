@@ -18,11 +18,21 @@
   ],
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/start-project",
       "destination": "/index.html"
     }
   ],
   "headers": [
+    {
+      "source": "/start-project",
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex, follow" }
+      ]
+    },
     {
       "source": "/(.*)",
       "headers": [

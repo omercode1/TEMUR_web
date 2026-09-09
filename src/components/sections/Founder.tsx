@@ -5,9 +5,9 @@ import { ShaderBackground } from '@/components/ui/ShaderBackground';
 import { Braces, Layers3, Sparkles } from 'lucide-react';
 
 const founderData = {
-  role: "FOUNDER & CEO",
-  primaryStatement: "Tasarım ve geliştirmeyi aynı süreçte ele alarak web deneyimleri, yazılım ürünleri ve dijital sistemler geliştiriyor.",
-  secondaryStatement: "TEMUR; teknik üretimle görsel düşünceyi birbirinden ayırmadan, ihtiyaca göre şekillenen dijital işler üretmek için kuruldu.",
+  role: "FOUNDER",
+  primaryStatement: "TemurCode'da tasarım ve geliştirmeyi aynı süreçte ele alarak web deneyimleri, yazılım ürünleri ve dijital sistemler geliştiriyor.",
+  secondaryStatement: "TemurCode; teknik üretimle görsel düşünceyi birbirinden ayırmadan, ihtiyaca göre şekillenen dijital işler üretmek için kuruldu.",
   capabilities: "WEB / SOFTWARE / BRAND / DIGITAL"
 };
 
@@ -32,7 +32,7 @@ export function Founder() {
   const opacity = useTransform(scrollYProgress, [0, 1], [0, 1]);
 
   return (
-    <section id="founder" ref={containerRef} data-testid="founder-section" className="py-16 md:py-32 relative bg-surface border-t border-white/5 overflow-hidden">
+    <section id="about" ref={containerRef} data-testid="founder-section" className="py-16 md:py-32 relative bg-surface border-t border-white/5 overflow-hidden">
       <div className="absolute inset-0 pointer-events-none opacity-80 mix-blend-lighten">
         <ShaderBackground className="w-full h-full" />
       </div>
@@ -54,9 +54,9 @@ export function Founder() {
 
             
             <div className="mb-8 md:mb-12 lg:mb-16 relative">
-              <h3 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold text-transparent bg-clip-text bg-gradient-to-br from-white via-white to-white/40 tracking-tighter leading-[0.9] md:leading-[0.85] mb-5 md:mb-6 drop-shadow-2xl">
+              <h2 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold text-transparent bg-clip-text bg-gradient-to-br from-white via-white to-white/40 tracking-tighter leading-[0.9] md:leading-[0.85] mb-5 md:mb-6 drop-shadow-2xl">
                 ÖMER<br />TEMURTAŞ
-              </h3>
+              </h2>
               <div className="inline-flex items-center gap-3 px-3 py-1.5 border border-white/10 bg-white/5">
                 <span className="w-1.5 h-1.5 rounded-full bg-white/60"></span>
                 <p className="text-[10px] md:text-xs font-mono tracking-widest text-white/70 uppercase">

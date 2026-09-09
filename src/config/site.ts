@@ -8,7 +8,7 @@ export const NAV_LINKS = [
   { name: 'Hizmetler', href: '#services' },
   { name: 'Projeler', href: '#work' },
   { name: 'Süreç', href: '#process' },
-  { name: 'Hakkımızda', href: '#founder' },
+  { name: 'Hakkımızda', href: '#about' },
 ] as const;
 
 export type FooterLink = {

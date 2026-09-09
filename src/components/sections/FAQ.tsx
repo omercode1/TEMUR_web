@@ -5,31 +5,31 @@ import { Plus, Minus } from 'lucide-react';
 const faqs = [
   {
     q: "Ne tür projeler geliştiriyorsunuz?",
-    a: "Kurumsal web siteleri, SaaS ürünleri, özel iş yazılımları, otomasyon araçları ve e-ticaret platformları dahil olmak üzere geniş bir yelpazede dijital ürünler geliştiriyoruz."
+    a: "Kurumsal web siteleri, web uygulamaları, özel iş yazılımları, iş akışı otomasyonları ve yapay zekâ entegrasyonları geliştiriyoruz. Her işi mevcut sürece, kullanıcı ihtiyacına ve ürün hedeflerine göre şekillendiriyoruz."
   },
   {
-    q: "Bir web sitesi ne kadar sürede tamamlanır?",
-    a: "Projenin kapsamına bağlı olarak değişmekle birlikte, standart kurumsal siteler 4-6 hafta, özel web uygulamaları ise 2-4 ay arasında sürebilmektedir."
+    q: "Özel yazılım geliştirme süreci nasıl ilerliyor?",
+    a: "Önce problemi, hedefleri ve teknik gereksinimleri birlikte netleştiriyoruz. Ardından kapsamı, kullanıcı akışlarını ve mimariyi tanımlayıp tasarım, geliştirme, test ve yayına alma adımlarını görünür bir planla yürütüyoruz."
   },
   {
-    q: "Mevcut bir projeyi geliştirebilir misiniz?",
-    a: "Evet. Mevcut yazılımlarınızın kod kalitesini artırabilir, performansını optimize edebilir veya yeni modüller ekleyerek modernleştirebiliriz."
+    q: "Mevcut sistemlere yapay zekâ entegrasyonu yapılabilir mi?",
+    a: "Uygun veri akışları ve iş kuralları olan sistemlerde, yapay zekâ destekli asistanları, sınıflandırma veya analiz akışlarını mevcut ürün ve operasyonlara entegre edecek çözümler tasarlıyoruz."
   },
   {
-    q: "Sadece web sitesi mi geliştiriyorsunuz?",
-    a: "Hayır. Arayüz tasarımından (UI/UX), veritabanı mimarisine, API entegrasyonlarından sunucu kurulumuna kadar tam yığın (full-stack) yazılım hizmeti veriyoruz."
+    q: "Web uygulamaları mobil uyumlu geliştiriliyor mu?",
+    a: "Evet. Kullanıcıların farklı ekran boyutlarında rahatça tamamlayabildiği, erişilebilir ve performanslı arayüzleri ürünün gereksinimlerine göre tasarlıyor ve test ediyoruz."
   },
   {
-    q: "Proje sonrası destek sağlıyor musunuz?",
-    a: "Kesinlikle. Yayına alma (launch) sonrası bakım, güvenlik güncellemeleri, performans takibi ve yeni özellik eklemeleri için uzun vadeli destek anlaşmaları yapıyoruz."
+    q: "Bir projeye nasıl başlanır?",
+    a: "Proje başlat formunda fikrinizi, hedefinizi ve mevcut ihtiyacınızı paylaşabilirsiniz. İlk değerlendirmede kapsamı netleştirir; doğru ürün yaklaşımı, öncelikler ve sonraki adımlar için birlikte bir çalışma çerçevesi oluştururuz."
   }
 ];
 
 export function FAQ() {
   return (
-    <section className="py-24 md:py-32 bg-background border-t border-white/5">
+    <section id="faq" aria-labelledby="faq-heading" className="py-24 md:py-32 bg-background border-t border-white/5">
       <div className="max-w-3xl mx-auto px-6 lg:px-8">
-        <h2 className="text-3xl md:text-4xl font-display font-bold text-text-primary tracking-tight mb-16 text-center">
+        <h2 id="faq-heading" className="text-3xl md:text-4xl font-display font-bold text-text-primary tracking-tight mb-16 text-center">
           Sıkça Sorulan Sorular
         </h2>
         

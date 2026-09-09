@@ -55,9 +55,9 @@ export function SelectedWork() {
           <div className="w-16 h-16 border border-white/10 mb-8 flex items-center justify-center">
              <div className="w-2 h-2 bg-white/40" />
           </div>
-          <h3 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-white tracking-tight mb-6">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-white tracking-tight mb-6">
             Öne Çıkan Çalışmalar
-          </h3>
+          </h2>
           <p className="text-text-secondary max-w-2xl text-balance text-lg md:text-xl font-medium">
             Estetik, performans ve kullanılabilirlik odaklı dijital ürün konseptleri ve platform mimarileri.
           </p>
@@ -100,7 +100,11 @@ function ProjectCard({ project, index, total, progress, prefersReducedMotion }: 
           <div className="absolute inset-0">
             <img 
               src={project.image} 
-              alt={project.title}
+              alt={`${project.title} dijital ürün konsepti`}
+              width={1024}
+              height={1024}
+              loading="lazy"
+              decoding="async"
               className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-700"
             />
             {/* Subtle overlay to blend with the dark theme */}
@@ -132,9 +136,9 @@ function ProjectCard({ project, index, total, progress, prefersReducedMotion }: 
                 {String(index + 1).padStart(2, '0')} — {project.category}
               </span>
             </div>
-            <h4 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-white tracking-tight mb-4 group-hover:text-white/90 transition-colors">
+            <h3 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-white tracking-tight mb-4 group-hover:text-white/90 transition-colors">
               {project.title}
-            </h4>
+            </h3>
             <p className="text-lg text-text-secondary leading-relaxed font-light">
               {project.desc}
             </p>
