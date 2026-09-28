@@ -125,7 +125,7 @@ export function StartProject() {
       </div>
 
       <header className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6 flex items-center justify-between z-50 relative">
-        <Link to="/" className="font-display font-bold text-xl tracking-tight text-white flex items-center">
+        <Link to="/" className="flex font-display text-xl font-bold tracking-tight text-white transition-colors hover:text-white/80">
           {SITE.name}<span className="text-white/30 font-normal ml-1.5 text-lg">{SITE.tag}</span>
         </Link>
         {!isSuccess && (

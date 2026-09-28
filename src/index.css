@@ -129,6 +129,15 @@ h4 { font-size: clamp(1.25rem, 2vw + 1rem, 1.75re
   }
 }
 
+/* Global scrollbar hiding */
+::-webkit-scrollbar {
+  display: none;
+}
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }

@@ -104,7 +104,7 @@ export function StepContact({ data, update, onNext, onBack }: StepContactProps) 
                 className={`min-h-11 px-5 py-3 text-sm tech-corners border transition-all 
                   ${data.contact.preferred === pref 
                     ? 'bg-accent border-accent text-black font-medium' 
-                    : 'bg-surface border-white/10 text-text-secondary hover:text-white hover:border-white/30'
+                    : 'bg-surface border-white/10 text-text-secondary hover:border-white/30 hover:bg-white/[0.04] hover:text-white'
                   }
                 `}
               >

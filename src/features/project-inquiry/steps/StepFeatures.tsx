@@ -55,7 +55,7 @@ export function StepFeatures({ data, update, onNext, onBack }: StepFeaturesProps
               className={`min-h-11 px-5 py-3 text-sm tech-corners transition-all duration-300 border
                 ${isSelected 
                   ? 'bg-accent border-accent text-black font-medium' 
-                  : 'bg-surface border-white/10 text-text-secondary hover:border-white/30 hover:text-white'
+                  : 'bg-surface border-white/10 text-text-secondary hover:border-white/30 hover:bg-white/[0.04] hover:text-white'
                 }
               `}
             >
@@ -72,7 +72,7 @@ export function StepFeatures({ data, update, onNext, onBack }: StepFeaturesProps
           className={`min-h-11 px-5 py-3 text-sm tech-corners transition-all duration-300 border
             ${hasOther 
               ? 'bg-accent border-accent text-black font-medium' 
-              : 'bg-surface border-white/10 text-text-secondary hover:border-white/30 hover:text-white'
+              : 'bg-surface border-white/10 text-text-secondary hover:border-white/30 hover:bg-white/[0.04] hover:text-white'
             }
           `}
         >

@@ -1,5 +1,10 @@
 import { defineConfig } from '@playwright/test';
 
+const chromeExecutablePath = process.env.PLAYWRIGHT_CHROME_EXECUTABLE
+  ?? (process.platform === 'win32'
+    ? 'C:/Program Files/Google/Chrome/Application/chrome.exe'
+    : undefined);
+
 export default defineConfig({
   testDir: './tests',
   testMatch: 'mobile.spec.ts',
@@ -11,9 +16,7 @@ export default defineConfig({
     isMobile: true,
     hasTouch: true,
     deviceScaleFactor: 1,
-    launchOptions: {
-      executablePath: 'C:/Users/omert/AppData/Local/ms-playwright/chromium-1234/chrome-win64/chrome.exe',
-    },
+    launchOptions: chromeExecutablePath ? { executablePath: chromeExecutablePath } : {},
   },
   webServer: {
     command: 'npm run dev',

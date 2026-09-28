@@ -18,10 +18,10 @@ export function Home() {
     <Layout>
       <Hero />
       <CapabilityStatement />
-      <Services />
-      <Process />
       <SelectedWork />
       <LogoMarquee />
+      <Services />
+      <Process />
       <Capabilities />
       <WhyUs />
       <FAQ />

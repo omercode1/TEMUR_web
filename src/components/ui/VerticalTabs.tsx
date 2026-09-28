@@ -100,7 +100,7 @@ export function VerticalTabs({
                   key={tab.id}
                   onClick={() => handleTabClick(index)}
                   className={cn(
-                    "hover-target group relative flex items-start gap-4 py-5 md:py-6 text-left transition-all duration-500",
+                    "hover-target group relative flex items-start gap-4 rounded-xl py-5 md:py-6 text-left transition-all duration-500 hover:bg-white/[0.03]",
                     isActive
                       ? "text-white"
                       : "text-white/40 hover:text-white/80"
@@ -168,7 +168,7 @@ export function VerticalTabs({
             onMouseEnter={() => setIsPaused(true)}
             onMouseLeave={() => setIsPaused(false)}
           >
-            <div className="relative aspect-[4/3] sm:aspect-square md:aspect-[4/3] lg:aspect-[4/5] xl:aspect-square rounded-[1.5rem] sm:rounded-[2rem] overflow-hidden bg-surface border border-white/10 shadow-2xl">
+            <div className="relative aspect-[4/3] sm:aspect-square md:aspect-[4/3] lg:aspect-[4/5] xl:aspect-square rounded-[1.5rem] sm:rounded-[2rem] overflow-hidden bg-surface border border-white/10 shadow-2xl transition-colors group-hover/gallery:border-white/30">
               <AnimatePresence
                 initial={false}
                 custom={direction}

@@ -23,7 +23,7 @@ export function ProjectNavigation({
         <button 
           type="button"
           onClick={onBack}
-          className="hover-target min-h-11 self-start text-text-secondary hover:text-white transition-colors flex items-center gap-2 text-sm font-medium relative z-10"
+          className="hover-target relative z-10 -ml-2 flex min-h-11 self-start items-center gap-2 rounded-sm px-2 text-sm font-medium text-text-secondary transition-colors hover:bg-white/[0.04] hover:text-white"
         >
           <ArrowLeft className="w-4 h-4" />
           Geri

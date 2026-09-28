@@ -171,4 +171,27 @@ test.describe('desktop custom cursor coverage', () => {
     await waitForApp(page);
     expect(await findCursorOffenders()).toEqual([]);
   });
+
+  test('custom cursor grows with crisp dimensions and interactive surfaces change color', async ({ page }) => {
+    await page.goto('/');
+    await waitForApp(page);
+
+    const firstProcessTab = page.locator('#process .hover-target').first();
+    await firstProcessTab.scrollIntoViewIfNeeded();
+    const backgroundBeforeHover = await firstProcessTab.evaluate((element) => getComputedStyle(element).backgroundColor);
+
+    await firstProcessTab.hover();
+    await page.waitForTimeout(260);
+
+    const backgroundAfterHover = await firstProcessTab.evaluate((element) => getComputedStyle(element).backgroundColor);
+    expect(backgroundAfterHover).not.toBe(backgroundBeforeHover);
+
+    const ring = page.getByTestId('custom-cursor-ring');
+    const dot = page.getByTestId('custom-cursor-dot');
+    await expect(ring).toHaveCSS('width', '54px');
+    await expect(ring).toHaveCSS('height', '54px');
+    await expect(dot).toHaveCSS('width', '14px');
+    await expect(ring).not.toHaveCSS('transform', /scale/);
+    await expect(dot).not.toHaveCSS('transform', /scale/);
+  });
 });

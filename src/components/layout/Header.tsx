@@ -27,10 +27,10 @@ export function Header() {
   return (
     <>
       <header
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 will-change-transform ${isScrolled ? 'bg-surface/90 backdrop-blur-sm border-b border-white/5 py-4' : 'bg-transparent py-6'}`}
+        className={`sticky top-0 z-50 w-full transition-all duration-300 will-change-transform ${isScrolled ? 'bg-surface/90 backdrop-blur-sm border-b border-white/5 py-4' : 'bg-transparent py-6'}`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
-          <Link to="/" className="font-display font-bold text-xl tracking-tight text-white z-50 flex items-center">
+          <Link to="/" className="z-50 flex font-display text-xl font-bold tracking-tight text-white transition-colors hover:text-white/80">
             {SITE.name}<span className="text-white/30 font-normal ml-1.5 text-lg">{SITE.tag}</span>
           </Link>
 
@@ -58,7 +58,7 @@ export function Header() {
 
           <button
             type="button"
-            className="md:hidden grid min-h-11 min-w-11 place-items-center -mr-2 text-text-secondary z-50 relative"
+            className="relative z-50 -mr-2 grid min-h-11 min-w-11 place-items-center text-text-secondary transition-colors hover:bg-white/5 hover:text-white md:hidden"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label={mobileMenuOpen ? 'Menüyü kapat' : 'Menüyü aç'}
             aria-expanded={mobileMenuOpen}
@@ -86,7 +86,7 @@ export function Header() {
                   initial={{ opacity: 0, x: -20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: i * 0.1 + 0.1 }}
-                  className="text-3xl font-display font-medium text-text-primary"
+                  className="font-display text-3xl font-medium text-text-primary transition-colors hover:text-white/70"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   {link.name}

@@ -61,16 +61,20 @@ export function CustomCursor() {
       ringX += (targetX - ringX) * 0.25;
       ringY += (targetY - ringY) * 0.25;
 
-      const dotScale = isClicked ? 0.7 : isHovered ? 2.2 : 1;
-      const ringScale = isClicked ? 0.5 : isHovered ? 1.5 : 1;
+      const ringSize = isClicked ? 28 : isHovered ? 54 : 36;
       const ringOpacity = isClicked ? 0.2 : isHovered ? 0.9 : 0.5;
 
       if (dotRef.current) {
-        dotRef.current.style.transform = `translate3d(${currentX}px, ${currentY}px, 0) translate(-50%, -50%) scale(${dotScale})`;
+        dotRef.current.style.transform = `translate3d(${currentX}px, ${currentY}px, 0) translate(-50%, -50%)`;
       }
       if (ringRef.current) {
-        ringRef.current.style.transform = `translate3d(${ringX}px, ${ringY}px, 0) translate(-50%, -50%) scale(${ringScale})`;
+        ringRef.current.style.transform = `translate3d(${ringX}px, ${ringY}px, 0) translate(-50%, -50%)`;
+        ringRef.current.style.width = `${ringSize}px`;
+        ringRef.current.style.height = `${ringSize}px`;
         ringRef.current.style.opacity = String(ringOpacity);
+        ringRef.current.style.boxShadow = isHovered
+          ? '0 0 18px rgba(255, 255, 255, 0.16)'
+          : '0 0 0 rgba(255, 255, 255, 0)';
       }
 
       rafId = requestAnimationFrame(updatePosition);
@@ -96,6 +100,7 @@ export function CustomCursor() {
     <>
       <div
         ref={dotRef}
+        data-testid="custom-cursor-dot"
         className={`pointer-events-none fixed top-0 left-0 z-[9999] h-3.5 w-3.5 rounded-full bg-white mix-blend-difference will-change-transform transition-opacity duration-300 ${
           isVisible ? 'opacity-100' : 'opacity-0'
         }`}
@@ -103,10 +108,16 @@ export function CustomCursor() {
       />
       <div
         ref={ringRef}
-        className={`pointer-events-none fixed top-0 left-0 z-[9998] h-9 w-9 rounded-full border border-white/60 mix-blend-difference will-change-transform transition-opacity duration-300 ${
+        data-testid="custom-cursor-ring"
+        className={`pointer-events-none fixed top-0 left-0 z-[9998] rounded-full border border-white/60 mix-blend-difference will-change-transform ${
           isVisible ? 'opacity-50' : 'opacity-0'
         }`}
-        style={{ transform: 'translate3d(-100px, -100px, 0) translate(-50%, -50%)' }}
+        style={{
+          height: '36px',
+          transform: 'translate3d(-100px, -100px, 0) translate(-50%, -50%)',
+          transition: 'width 180ms ease-out, height 180ms ease-out, opacity 180ms ease-out, box-shadow 180ms ease-out',
+          width: '36px',
+        }}
       />
     </>
   );

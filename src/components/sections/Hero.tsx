@@ -88,24 +88,7 @@ export function Hero() {
         </div>
       </div>
 
-      {/* Scroll indicator - Removed mix-blend for perf */}
-      <motion.div 
-        initial={{ opacity: 0 }}
-        animate={isLoaded ? { opacity: 1 } : {}}
-        transition={{ duration: 2, delay: 2 }}
-        className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-4 text-white/60 z-10"
-      >
-        <span className="text-[10px] font-mono tracking-[0.3em] text-white/40 uppercase block">
-          Scroll
-        </span>
-        <div className="w-[1px] h-16 bg-white/10 relative overflow-hidden mt-4">
-          <motion.div 
-            animate={{ y: ['-100%', '100%'] }}
-            transition={{ repeat: Infinity, duration: 2, ease: [0.65, 0, 0.35, 1] }}
-            className="absolute inset-0 bg-white shadow-[0_0_10px_rgba(255,255,255,0.8)]"
-          />
-        </div>
-      </motion.div>
+
     </section>
   );
 }

@@ -49,13 +49,13 @@ export function StepTimeline({ data, update, onNext, onBack }: StepTimelineProps
         <div className="flex flex-wrap gap-3 mb-4">
           <button
             onClick={() => update({ hasDeadline: false, deadlineDate: '' })}
-            className={`min-h-11 px-6 py-3 text-sm tech-corners border transition-all ${!data.hasDeadline ? 'bg-accent border-accent text-black font-medium' : 'bg-surface border-white/10 text-text-secondary hover:text-white'}`}
+            className={`min-h-11 px-6 py-3 text-sm tech-corners border transition-all ${!data.hasDeadline ? 'bg-accent border-accent text-black font-medium' : 'bg-surface border-white/10 text-text-secondary hover:border-white/30 hover:bg-white/[0.04] hover:text-white'}`}
           >
             Hayır
           </button>
           <button
             onClick={() => update({ hasDeadline: true })}
-            className={`min-h-11 px-6 py-3 text-sm tech-corners border transition-all ${data.hasDeadline ? 'bg-accent border-accent text-black font-medium' : 'bg-surface border-white/10 text-text-secondary hover:text-white'}`}
+            className={`min-h-11 px-6 py-3 text-sm tech-corners border transition-all ${data.hasDeadline ? 'bg-accent border-accent text-black font-medium' : 'bg-surface border-white/10 text-text-secondary hover:border-white/30 hover:bg-white/[0.04] hover:text-white'}`}
           >
             Evet
           </button>
