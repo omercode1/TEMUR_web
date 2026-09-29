@@ -1,6 +1,5 @@
 import { useRef } from 'react';
 import { motion, useScroll, useTransform, useReducedMotion } from 'motion/react';
-import { ArrowUpRight } from 'lucide-react';
 import { useMobile } from '@/hooks/useMobile';
 
 const projects = [
@@ -20,10 +19,10 @@ const projects = [
   },
   {
     id: 3,
-    category: "CUSTOM SOFTWARE / AUTOMATION",
-    title: "İş Akışı Otomasyonu",
-    desc: "Tekrarlayan operasyonel görevleri yapay zeka destekli modüllerle otomatize eden iç yazılım.",
-    image: "/images/project3.png",
+    category: "AUTOMOTIVE / WEB EXPERIENCE",
+    title: "Otomotiv ve Yarış Platformu",
+    desc: "Otomotiv tutkusu ve yarış heyecanını dijital dünyaya taşıyan modern ve dinamik web deneyimi.",
+    video: "/videos/autoinstagram_compressed.mp4",
   }
 ];
 
@@ -96,17 +95,30 @@ function ProjectCard({ project, index, total, progress, prefersReducedMotion }: 
       >
         <div className="relative aspect-[4/3] md:aspect-[21/9] overflow-hidden bg-background border border-white/5">
           
-          {/* Project Image */}
+          {/* Project Image/Video */}
           <div className="absolute inset-0">
-            <img 
-              src={project.image} 
-              alt={`${project.title} dijital ürün konsepti`}
-              width={1024}
-              height={1024}
-              loading="lazy"
-              decoding="async"
-              className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-700"
-            />
+            {project.video ? (
+              <video
+                src={project.video}
+                autoPlay
+                loop
+                muted
+                playsInline
+                preload="metadata"
+                aria-hidden="true"
+                className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-700 transform-gpu"
+              />
+            ) : (
+              <img
+                src={project.image}
+                alt={`${project.title} dijital ürün konsepti`}
+                width={1024}
+                height={1024}
+                loading="lazy"
+                decoding="async"
+                className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-700"
+              />
+            )}
             {/* Subtle overlay to blend with the dark theme */}
             <div className="absolute inset-0 bg-background/20 group-hover:bg-transparent transition-colors duration-700" />
           </div>
@@ -121,12 +133,6 @@ function ProjectCard({ project, index, total, progress, prefersReducedMotion }: 
           
           {/* Overlay gradient */}
           <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-80 pointer-events-none" />
-          
-          <div className="absolute top-4 right-4 md:top-6 md:right-6 z-20">
-            <div className="w-10 h-10 md:w-12 md:h-12 border border-white/10 bg-surface/80 flex items-center justify-center group-hover:bg-white group-hover:border-white transition-colors duration-300">
-              <ArrowUpRight className="text-white/70 group-hover:text-black transition-colors duration-300" size={18} />
-            </div>
-          </div>
         </div>
         
         <div className="flex flex-col md:flex-row md:items-start justify-between gap-6 pt-2 px-2 md:px-4 pb-4">
@@ -142,11 +148,6 @@ function ProjectCard({ project, index, total, progress, prefersReducedMotion }: 
             <p className="text-lg text-text-secondary leading-relaxed font-light">
               {project.desc}
             </p>
-          </div>
-          
-          <div className="flex items-center gap-3 text-xs font-mono tracking-widest text-white/50 uppercase group-hover:text-white transition-colors mt-2 md:mt-0">
-            İncele 
-            <span className="w-8 h-[1px] bg-white/20 group-hover:bg-white transition-colors" />
           </div>
         </div>
       </motion.div>
